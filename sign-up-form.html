@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up Form</title>
+    
+    <style>
+      input{
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius: 15px;
+        padding-left:20px;
+        font-size: 20px;
+        font-family: Poppins;
+      }
+      .name, .last{
+        width: 190px;
+        height: 50px;
+        margin-bottom: 10px;
+        margin-right: 5px;
+        color: gray;
+        
+      }
+      .email{
+        display: block;
+        width: 415px;
+        height: 50px;
+        color: gray;
+        margin-bottom: 10px;
+      }
+      .sign-up{
+        background-color: blue;
+        border: none;
+        color: white;
+        height: 55px;
+        width: 440px;
+        display: block;
+        border-radius: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        box-shadow: 4px 4px 4px gray;
+        transition: background-color .3s;
+        font-family: Poppins;
+      }
+      .sign-up:hover{
+        background-color: rgb(35, 115, 253);
+      }
+      .sign-up:active{
+        margin-left: 4px;
+        margin-top: 14px;
+        box-shadow: none;
+      }
+    </style>
+  </head>
+  <body>
+    <input class="name" type="text" placeholder="First name">
+    <input class="last" type="text" placeholder="Last name">
+    <input class="email" type="text" placeholder="Email">
+    <button class="sign-up">
+      Sign Up
+    </button>
+  </body>
+</html>
