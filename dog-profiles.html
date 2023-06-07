@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dog Profiles</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <style>
+      p{
+        font-family: Poppins;
+        margin-left: 10px;
+      }
+      div{
+        display: inline-block;
+        border-width: 20px;
+        border-color: black;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        margin-right: 10px;
+        vertical-align: top;
+      }
+      .dog, .dog3{
+        width: 250px;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 0px;
+      }
+      .dog3{
+        object-position: top;
+      }
+      .name{
+        font-weight: 600;
+        font-size: 40px;
+        margin-bottom: 0px;
+        margin-top: 5px;
+      }
+      .friends{
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      button{
+        margin-top: 8px;
+        background-color: rgb(39, 39, 255);
+        text-align: center;
+        border: none;
+        color: white;
+        height: 40px;
+        width: 120px;
+        display: block;
+        border-radius: 6px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+        font-size: 15px;
+        box-shadow: 4px 4px 4px gray;
+        transition: background-color .3s;
+      }
+      button:hover{
+        background-color: rgb(35, 115, 253);
+      }
+      button:active{
+        margin-left: 19px;
+        margin-top: 14px;
+        margin-bottom: 4px;
+        box-shadow: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img class="dog" src="dogs/dog1.jpg">
+      <p class="name">
+        Oliver
+      </p>
+      <p class="friends">
+        2 mutual friends
+      </p>
+      <button>
+        Add Friend
+      </button>
+    </div>
+
+    <div>
+      <img class="dog" src="dogs/dog2.jpg">
+      <p class="name">
+        Mimi
+      </p>
+      <p class="friends">
+        3 mutual friends
+      </p>
+      <button>
+        Add Friend
+      </button>
+    </div>
+
+    <div>
+      <img class="dog3" src="dogs/dog3.jpg">
+      <p class="name">
+        Rex
+      </p>
+      <p class="friends">
+        4 mutual friends
+      </p>
+      <button>
+        Add Friend
+      </button>
+    </div>
+
+  </body>
+</html>

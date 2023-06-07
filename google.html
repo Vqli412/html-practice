@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Search</title>
+    <style>
+      div{
+        text-align: center;
+      }
+      input{
+        height: 50px;
+        width: 700px;
+        padding-left: 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 30px;
+        box-shadow: 0 0 6px rgb(176, 176, 176);
+        display: block;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+
+      }
+      img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+        height: 100px;
+        margin-top: 100px;
+      }
+      button{
+        margin-right: 8px;
+        margin-top: 28px;
+        background-color: rgb(245, 245, 245);
+        border-color: rgba(255, 255, 255, 0);
+        font-weight: 500;
+        font-size: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 3px;
+        object-position: top;
+      }
+      button:hover{
+        box-shadow: 0 0 2px gray;
+      }
+      .search:active{
+        margin-right: 9px;
+      }
+      .lucky:active{
+        margin-left: 1px;
+      }
+      button:active{
+        border-color: blue;
+        border-width: 1px;
+        box-shadow: 0 0 0 0;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+    <img src="google.png">
+    <input type="text" placeholder="Search Google or type a URL">
+    <button class="search">
+      Google Search
+    </button>
+    <button class="lucky">
+      I'm Feeling Lucky
+    </button>
+    </div>
+  </body>
+</html>
